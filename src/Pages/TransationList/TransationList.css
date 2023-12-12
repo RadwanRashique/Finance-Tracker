@@ -1,0 +1,20 @@
+
+.TransationList{
+   
+    text-align: center;
+    color: rgb(24, 97, 122);
+   
+}
+.header{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.header button{
+   position: fixed;
+   right: 0;
+}
+.btn{
+    border-radius: 10px;
+   margin-left: 5px;
+}

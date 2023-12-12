@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(244, 239, 239);
+  }
+  
+  .container {
+    background-color: rgb(104, 75, 130);
+    width: 100%;
+    height: 400px;
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: end;
+  }
+  .btndiv{
+   
+text-align: end;
+  }
+  .btndiv  button{
+   margin-top: 20px;
+   margin-right: 10px;
+  }
+  #transH{
+    color: rgb(9, 10, 10);
+   
+    border: none;
+    
+   
+    font-size: large;
+    font-weight: bold;
+    width: 300px; /* Add width to match the input fields */
+    height: 30px; 
+    
+  }
+  
+  .TransationCard {
+    color: rgb(19, 18, 16);
+    border-radius: 9px;
+    height: 280px;
+    width: 300px;
+    box-shadow: 5px 5px 5px 5px;
+    background-color: aliceblue;
+    padding: 30px;
+    display: flex;
+    flex-direction: column; /* Ensure that the child elements are stacked vertically */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .cardInputs {
+    width: 100%;
+    display: flex;
+    flex-direction: column; /* Ensure that the child elements are stacked vertically */
+    align-items: center;
+  }
+  
+  /* Add some styling for better spacing, you can adjust these values according to your preference */
+  .cardInputs input,
+  .cardInputs button {
+    margin-bottom: 10px;
+    width: 250px;
+    height: 30px;
+    border: none;
+  }
+  
+  #transtbtn{
+    color: aliceblue;
+    background-color: rgb(134, 51, 211);
+    border: none;
+    border-radius: 80px;
+    font-size:medium;
+    font-weight: bold;
+  
+  }
+  .topbtn{
+    margin-left: 0;
+  }
